@@ -14,6 +14,7 @@
 		8EE80ED81B22C6DF008B1ED2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE80ED71B22C6DF008B1ED2 /* Images.xcassets */; };
 		8EE80EDB1B22C6DF008B1ED2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EE80ED91B22C6DF008B1ED2 /* LaunchScreen.xib */; };
 		8EE80EE71B22C6DF008B1ED2 /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE80EE61B22C6DF008B1ED2 /* TodoTests.swift */; };
+		8EE80EF51B234BDB008B1ED2 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE80EF41B234BDB008B1ED2 /* TodoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		8EE80EE01B22C6DF008B1ED2 /* TodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE80EE51B22C6DF008B1ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EE80EE61B22C6DF008B1ED2 /* TodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTests.swift; sourceTree = "<group>"; };
+		8EE80EF41B234BDB008B1ED2 /* TodoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				8EE80ECD1B22C6DF008B1ED2 /* AppDelegate.swift */,
 				8EE80ED21B22C6DF008B1ED2 /* ViewController.swift */,
+				8EE80EF41B234BDB008B1ED2 /* TodoModel.swift */,
 				8EE80ED41B22C6DF008B1ED2 /* Main.storyboard */,
 				8EE80ED71B22C6DF008B1ED2 /* Images.xcassets */,
 				8EE80ED91B22C6DF008B1ED2 /* LaunchScreen.xib */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EE80ED31B22C6DF008B1ED2 /* ViewController.swift in Sources */,
+				8EE80EF51B234BDB008B1ED2 /* TodoModel.swift in Sources */,
 				8EE80ECE1B22C6DF008B1ED2 /* AppDelegate.swift in Sources */,
 				8EE80ED11B22C6DF008B1ED2 /* Todo.xcdatamodeld in Sources */,
 			);
